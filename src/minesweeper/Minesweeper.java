@@ -285,7 +285,7 @@ public class Minesweeper {
             dialogMessage + "\nDo you want to restart the game?",
             dialogTitle,
             JOptionPane.YES_NO_OPTION,
-            JOptionPane.QUESTION_MESSAGE,
+            JOptionPane.PLAIN_MESSAGE,
             null,
             options,
             options[0]);
