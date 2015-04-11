@@ -46,8 +46,8 @@ public class Game {
                 "Medium",
                 "Difficult"};
         int n = JOptionPane.showOptionDialog(null,
-                "Would you like some green eggs to go ",
-                "A Silly Question",
+                "Choose game level",
+                "Choose game level",
                 JOptionPane.YES_NO_CANCEL_OPTION,
                 JOptionPane.PLAIN_MESSAGE,
                 null,
