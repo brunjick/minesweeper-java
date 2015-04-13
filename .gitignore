@@ -1,6 +1,7 @@
 # IDEA Specific
 **/.idea/
 **/out/
+**/Minesweeper.iml
 
 # OS X Specific
 .DS_Store
