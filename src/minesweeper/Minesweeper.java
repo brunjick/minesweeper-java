@@ -52,7 +52,7 @@ public class Minesweeper {
                 Zone _zone = (Zone) e.getSource(); // Downcast object to our Zone class
 
                 if (!_zone.zoneRevealed) { // Check if zone is not already revealed
-                    if (SwingUtilities.isLeftMouseButton(e)) openZone(_zone); // Open zone if left mouse button is clicked
+                    if (SwingUtilities.isLeftMouseButton(e) && !_zone.zoneMarked) openZone(_zone); // Open zone if left mouse button is clicked and zone isn't marked
                     else if (SwingUtilities.isRightMouseButton(e)) markZone(_zone); // Mark zone if right mouse button is clicked
                 }
                 // Check if user won the game
