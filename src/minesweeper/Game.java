@@ -21,19 +21,15 @@ public class Game {
                     UIManager.getSystemLookAndFeelClassName());
         }
         catch (UnsupportedLookAndFeelException e) {
-            System.out.println(e.getStackTrace());
             System.exit(0);
         }
         catch (ClassNotFoundException e) {
-            System.out.println(e.getStackTrace());
             System.exit(0);
         }
         catch (InstantiationException e) {
-            System.out.println(e.getStackTrace());
             System.exit(0);
         }
         catch (IllegalAccessException e) {
-            System.out.println(e.getStackTrace());
             System.exit(0);
         }
 
